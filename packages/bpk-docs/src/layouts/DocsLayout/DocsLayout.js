@@ -50,7 +50,7 @@ const links = [
       { id: 'BADGE', route: routes.BADGE, children: 'Badge' },
       { id: 'PANELS', route: routes.PANELS, children: 'Panels' },
       { id: 'ILLUSTRATIONS', route: null, children: 'Illustrations' },
-      { id: 'IMAGES', route: null, children: 'Image' },
+      { id: 'IMAGES', route: routes.IMAGES, children: 'Images' },
     ],
   },
   {
@@ -89,6 +89,7 @@ const links = [
     category: 'Utilities',
     links: [
       { id: 'ALIGNMENT', route: routes.ALIGNMENT, children: 'Alignment' },
+      { id: 'LAZYLOADING', route: routes.LAZYLOADING, children: 'Lazy loading' },
     ],
   },
 ];
